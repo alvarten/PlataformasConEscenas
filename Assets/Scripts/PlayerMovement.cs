@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         // Movimiento horizontal
-        moveInput = Input.GetAxisRaw("Horizontal"); // -1 (izquierda), 1 (derecha), 0 (sin moverse)
+        moveInput = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
         // Verificar si está tocando el suelo
@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
     {
         facingRight = !facingRight;
         Vector3 scale = transform.localScale;
-        scale.x *= -1; // Invierte la escala en X
+        scale.x *= -1; 
         transform.localScale = scale;
     }
 }

@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
             {
@@ -47,14 +47,14 @@ public class PauseMenu : MonoBehaviour
     public void LoadMainMenu()
     {
         Time.timeScale = 1f; // Asegurar que el tiempo se reanuda antes de cambiar de escena
-        SceneManager.LoadScene("MainMenu"); // Cambia la escena al menú principal (ajusta el nombre de la escena)
+        SceneManager.LoadScene("MainMenu"); // Cambia la escena al menú principal
     }
 
     // Método para salir completamente del juego
     public void QuitGame()
     {
-        Debug.Log("Saliendo del juego..."); // Esto solo se verá en el editor de Unity
-        Application.Quit(); // Cierra la aplicación (en editor no funciona, pero en el build sí)
+        Debug.Log("Saliendo del juego...");
+        Application.Quit(); // Cierra la aplicación
     }
 
 }
