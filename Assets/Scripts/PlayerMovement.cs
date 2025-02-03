@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public float groundCheckRadius = 0.2f;
 
     private Rigidbody2D rb;
+    private Animator anim;
     private bool isGrounded;
     private float moveInput;
     private bool facingRight = true;
@@ -24,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,6 +53,10 @@ public class PlayerMovement : MonoBehaviour
         {
             Flip();
         }
+
+        //Activar animaciones
+        anim.SetFloat("Speed", Mathf.Abs(moveInput)); // Si se mueve, activa "Speed"
+        
 
     }
     //Funcion para girar el sprite del personaje
