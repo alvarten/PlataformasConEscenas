@@ -1,0 +1,25 @@
+# Carpetas de Unity que NO deben subirse a Git
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+
+# Archivos de compilación que no son necesarios
+*.csproj
+*.sln
+*.unitypackage
+*.pidb
+*.suo
+*.user
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Configuración de IDEs (Visual Studio, JetBrains Rider)
+.vs/
+.idea/
