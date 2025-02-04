@@ -13,7 +13,8 @@ public class SceneChanger : MonoBehaviour
         if (other.CompareTag("Player")) // Si el jugador entra en el área de transición
         {
             SpawnManager.SetSpawnPoint(spawnPoint.position); //Guardar la posicion del player
-            SceneManager.LoadScene(sceneToLoad); // Cargar la nueva escena
+            // Usar SceneLoader para cambiar de escena con pantalla de carga
+            FindObjectOfType<SceneLoader>().LoadScene(sceneToLoad);
         }
     }
 }
