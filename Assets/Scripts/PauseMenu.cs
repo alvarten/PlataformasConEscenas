@@ -4,10 +4,22 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
-{
-    // Start is called before the first frame update
+{    
     public GameObject pauseMenuUI;  // El panel del menú de pausa
     private bool isPaused = false;  // Para saber si el juego está pausado
+    private static PauseMenu instance;
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject); // Mantener el gestor en todas las escenas
+        }
+        else
+        {
+            Destroy(gameObject); // Evita duplicados
+        }
+    }
     void Start()
     {
         

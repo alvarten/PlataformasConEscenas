@@ -9,7 +9,25 @@ public class MainMenu : MonoBehaviour
     public GameObject optionsPanel, menuPanel, controlsPanel;
     public void PlayGame()
     {
-        SceneManager.LoadScene("GameScene1");
+        //Si ya tiene valor se va al valor, en caso contrario se va al GameScene1
+        //
+        //PlayerPrefs.GetString("NextScene", sceneName);
+        //SceneManager.LoadScene("GameScene1");
+
+        // Verificar si existe un valor guardado en "NextScene"
+        if (PlayerPrefs.HasKey("NextScene"))
+        {
+            // Si hay un valor guardado, cargar la escena guardada
+            string nextScene = PlayerPrefs.GetString("NextScene");
+            Debug.Log("Cargando escena guardada: " + nextScene);
+            SceneManager.LoadScene(nextScene);
+        }
+        else
+        {
+            // Si no hay un valor guardado, realiza una acción alternativa (ejemplo: cargar una escena predeterminada)
+            Debug.Log("No se encontró ninguna escena guardada. Cargando escena predeterminada...");
+            SceneManager.LoadScene("GameScene1");
+        }
     }
 
     // Método para salir del juego
