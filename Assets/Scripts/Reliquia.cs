@@ -6,7 +6,7 @@ public class Reliquia : Coleccionable
 {
     public string Rareza; // Rareza de la reliquia (común, rara, legendaria)
     //Constructor
-    public Reliquia(int valor, string nombre, string rareza)
+    public Reliquia(int valor, string nombre, string rareza, int ElProtegido)
     {
         Valor = valor;
         Nombre = nombre;
