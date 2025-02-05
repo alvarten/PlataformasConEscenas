@@ -23,7 +23,7 @@ public class SceneLoader : MonoBehaviour
     // Método público para cambiar de escena con pantalla de carga
     public void LoadScene(string sceneName)
     {
-        // Si ya estamos en la pantalla de carga, no hagamos nada
+        // Si ya estamos en la pantalla de carga, no se hace nada
         if (SceneManager.GetActiveScene().name == "LoadingScene")
             return;
 
