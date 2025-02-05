@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 9ee4be95456a8554bb56cddcc86c11a1
+guid: 812d83dde0d595648af7f7b8afdee7a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5246917734838729879
-    second: Coleccionables_0
+      213: -5616131565494077950
+    second: "ProtaAnimaci\xF3n 1_0"
   - first:
-      213: 8127354316905858057
-    second: Coleccionables_1
+      213: 6560046381840435371
+    second: "ProtaAnimaci\xF3n 1_1"
   - first:
-      213: -6597735346400924298
-    second: Coleccionables_2
+      213: -3932476357550000649
+    second: "ProtaAnimaci\xF3n 1_2"
   - first:
-      213: 8224678996035246085
-    second: Coleccionables_3
+      213: 4423039864511495279
+    second: "ProtaAnimaci\xF3n 1_3"
   - first:
-      213: -1607702744825368667
-    second: Coleccionables_4
+      213: -1860657242237358030
+    second: "ProtaAnimaci\xF3n 1_4"
   - first:
-      213: -4343559420130955558
-    second: Coleccionables_5
+      213: 506666294720375153
+    second: "ProtaAnimaci\xF3n 1_5"
+  - first:
+      213: -4497202104285151184
+    second: "ProtaAnimaci\xF3n 1_6"
+  - first:
+      213: -6403550271748953988
+    second: "ProtaAnimaci\xF3n 1_7"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Coleccionables_0
+      name: "ProtaAnimaci\xF3n 1_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79c72c661ebc0d840800000000000000
-      internalID: 5246917734838729879
+      spriteID: 206fdd2c81e7f02b0800000000000000
+      internalID: -5616131565494077950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coleccionables_1
+      name: "ProtaAnimaci\xF3n 1_1"
       rect:
         serializedVersion: 2
         x: 16
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90449eec0b92ac070800000000000000
-      internalID: 8127354316905858057
+      spriteID: ba88fab7d67f90b50800000000000000
+      internalID: 6560046381840435371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coleccionables_2
+      name: "ProtaAnimaci\xF3n 1_2"
       rect:
         serializedVersion: 2
         x: 32
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67debb3a8a22074a0800000000000000
-      internalID: -6597735346400924298
+      spriteID: 7f53c9486990d69c0800000000000000
+      internalID: -3932476357550000649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coleccionables_3
+      name: "ProtaAnimaci\xF3n 1_3"
       rect:
         serializedVersion: 2
         x: 48
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5081c4e78fde32270800000000000000
-      internalID: 8224678996035246085
+      spriteID: f6c799f825bc16d30800000000000000
+      internalID: 4423039864511495279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coleccionables_4
+      name: "ProtaAnimaci\xF3n 1_4"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
+        x: 64
+        y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +225,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5af634e1fda40b9e0800000000000000
-      internalID: -1607702744825368667
+      spriteID: 2303faba81e9d26e0800000000000000
+      internalID: -1860657242237358030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coleccionables_5
+      name: "ProtaAnimaci\xF3n 1_5"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179a8748f4a080700800000000000000
+      internalID: 506666294720375153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaAnimaci\xF3n 1_6"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +267,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adeea4678b398b3c0800000000000000
-      internalID: -4343559420130955558
+      spriteID: 030c1fa638ab691c0800000000000000
+      internalID: -4497202104285151184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaAnimaci\xF3n 1_7"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c782c0f84f40227a0800000000000000
+      internalID: -6403550271748953988
       vertices: []
       indices: 
       edges: []
