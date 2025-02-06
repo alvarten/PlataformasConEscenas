@@ -7,6 +7,17 @@ public class MainMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject optionsPanel, menuPanel, controlsPanel;
+    //Chequear si se ha abierto el menu por primera vez
+    private static bool isFirstTime = true;
+    private void Start()
+    {
+        //La primera vez que se inicia el menú, se setea la proxima escena a la GameScene1
+        if (isFirstTime)
+        {
+            PlayerPrefs.SetString("NextScene", "GameScene1");
+            isFirstTime = false;
+        }         
+    }
     public void PlayGame()
     {
         //Si ya tiene valor se va al valor, en caso contrario se va al GameScene1
